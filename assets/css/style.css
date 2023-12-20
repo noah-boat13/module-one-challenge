@@ -75,7 +75,8 @@ p {
     margin-left: 20px;
 }
 
-.benefits {
+/* changed benefits to benefit to allow bottom class to be renamed and make more sense contextually */
+.benefit {
     margin-right: 20px;
     padding: 20px;
     clear: both;
@@ -86,20 +87,23 @@ p {
     background-color: #2589bd;
 }
 
-.benefit-lead {
+/* changed class name from benefit-lead to benefits to apply to all three class cases in html file/ removes redundant blocks of code */
+.benefits {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-.benefit-brand {
+/* blocked out redundant code */
+/* .benefit-brand {
     margin-bottom: 32px;
     color: #ffffff;
-}
+} */
 
-.benefit-cost {
+/* blocked out redundant code */
+/* .benefit-cost {
     margin-bottom: 32px;
     color: #ffffff;
-}
+} */
 
 .benefit-lead h3 {
     margin-bottom: 10px;
@@ -134,7 +138,8 @@ p {
     max-width: 150px;
 }
 
-.search-engine-optimization {
+/* changed class search engine optimization to utilities to be use on all three sections in hmtl files/ removes redundant blocks of code */
+.utilities {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -143,23 +148,25 @@ p {
     color: #ffffff;
 }
 
-.online-reputation-management {
+/* blocked out redundant code */
+/* .online-reputation-management {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
     color: #ffffff;
-}
+} */
 
-.social-media-marketing {
+/* blocked out redundant code */
+/* .social-media-marketing {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
     color: #ffffff;
-}
+} */
 
 .search-engine-optimization img {
     max-height: 200px;
