@@ -244,12 +244,7 @@ nav ul li {
 }
 
 /* unused code used to test flex box for header/nav */
-/* nav a {
-    display: block;
-    padding: 10px;
-    text-decoration: none;
-    margin-right: 10px;
-} */
+
 /* nav {
     display: flex;
     justify-content: flex-end;
