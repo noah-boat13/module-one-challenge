@@ -225,3 +225,25 @@ footer {
 footer h2 {
     font-size: 20px;
 }
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: baseline;
+}   
+
+
+nav ul {
+    list-style: none;
+
+    
+}
+
+nav li {
+    display: inline;
+}
+
+nav a {
+    margin-right: 10px;
+}
