@@ -10,7 +10,11 @@ body {
 
 /* changed from a class attribute to an element attribute to match changes made in html file to include semantic elements/ .header -> header */
 header {
-    padding: 20px;
+    /* added flex box attributes to the header to format header/nav bar back to how it was before changes to html semantic elements/ div -> nav */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
@@ -226,24 +230,28 @@ footer h2 {
     font-size: 20px;
 }
 
-nav {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    align-items: baseline;
-}   
-
+/* added nav elements to match html changes and format navbar correctly */
 
 nav ul {
     list-style: none;
-
-    
+    margin: 0;
+    padding: 0;
 }
 
-nav li {
-    display: inline;
+nav ul li {
+    display: inline-block;
+    margin-left: 10px;
 }
 
-nav a {
+/* unused code used to test flex box for header/nav */
+/* nav a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
     margin-right: 10px;
-}
+} */
+/* nav {
+    display: flex;
+    justify-content: flex-end;
+    lign-items: baseline;
+} */
